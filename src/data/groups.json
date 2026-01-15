@@ -1,0 +1,70 @@
+
+
+[
+  {
+    "id": 1,
+    "name": "BTS",
+    "image": "/assets/images/bts.jpg",
+    "description": "Groupe légendaire de la K-Pop, connus pour leurs performances énergiques et leurs messages positifs.",
+    "color": "#ff006e",
+    "music": "/assets/audio/bts-dynamite.mp3",
+    "members": 7,
+    "debut": "2013",
+    "company": "HYBE"
+  },
+  {
+    "id": 2,
+    "name": "BLACKPINK",
+    "image": "/assets/images/blackpink.jpg",
+    "description": "Girl group iconique avec un style unique et des performances puissantes.",
+    "color": "#8338ec",
+    "music": "/assets/audio/blackpink-ddu-du.mp3",
+    "members": 4,
+    "debut": "2016",
+    "company": "YG Entertainment"
+  },
+  {
+    "id": 3,
+    "name": "NewJeans",
+    "image": "/assets/images/newjeans.jpg",
+    "description": "Rookies sensationnels qui ont revolutionné le son K-Pop avec leur style frais et moderne.",
+    "color": "#3a86ff",
+    "music": "/assets/audio/newjeans-hype-boy.mp3",
+    "members": 5,
+    "debut": "2022",
+    "company": "HYBE"
+  },
+  {
+    "id": 4,
+    "name": "Stray Kids",
+    "image": "/assets/images/stray-kids.jpg",
+    "description": "Groupe auto-producteur connu pour leur énergie explosive et leur créativité musicale.",
+    "color": "#ffd60a",
+    "music": "/assets/audio/stray-kids-god-menu.mp3",
+    "members": 8,
+    "debut": "2018",
+    "company": "JYP Entertainment"
+  },
+  {
+    "id": 5,
+    "name": "AESPA",
+    "image": "/assets/images/aespa.jpg",
+    "description": "Pionniers du metaverse K-Pop avec leur concept unique de membres virtuels.",
+    "color": "#ff006e",
+    "music": "/assets/audio/aespa-next-level.mp3",
+    "members": 4,
+    "debut": "2020",
+    "company": "SM Entertainment"
+  },
+  {
+    "id": 6,
+    "name": "IVE",
+    "image": "/assets/images/ive.jpg",
+    "description": "Girl group élégant qui domine les charts avec leur concept mature et sophistiqué.",
+    "color": "#8338ec",
+    "music": "/assets/audio/ive-love-dive.mp3",
+    "members": 6,
+    "debut": "2021",
+    "company": "Starship Entertainment"
+  }
+]

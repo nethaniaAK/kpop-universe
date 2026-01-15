@@ -1,0 +1,63 @@
+
+
+/* Effets néon */
+.neon-text {
+  text-shadow: 
+    0 0 10px var(--neon-pink),
+    0 0 20px var(--neon-pink),
+    0 0 30px var(--neon-pink),
+    0 0 40px var(--neon-purple);
+}
+
+.neon-border {
+  border: 2px solid var(--neon-blue);
+  box-shadow: 
+    0 0 10px var(--neon-blue),
+    inset 0 0 10px var(--neon-blue);
+}
+
+.neon-glow {
+  animation: neon-pulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes neon-pulse {
+  from {
+    box-shadow: 0 0 10px var(--neon-pink), 0 0 20px var(--neon-pink);
+  }
+  to {
+    box-shadow: 0 0 20px var(--neon-purple), 0 0 30px var(--neon-purple);
+  }
+}
+
+/* Cartes lumineuses */
+.group-card {
+  background: linear-gradient(135deg, var(--dark-secondary) 0%, #2a2a2a 100%);
+  border-radius: 15px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.group-card::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, var(--neon-pink), var(--neon-purple), var(--neon-blue));
+  border-radius: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.group-card:hover::before {
+  opacity: 1;
+}
+
+.group-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(255, 0, 110, 0.3);
+}

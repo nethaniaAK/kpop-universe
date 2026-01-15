@@ -1,0 +1,31 @@
+
+
+:root {
+  /* Palette néon K-Pop */
+  --neon-pink: #ff006e;
+  --neon-purple: #8338ec;
+  --neon-blue: #3a86ff;
+  --neon-gold: #ffd60a;
+  --dark-bg: #0a0a0a;
+  --dark-secondary: #1a1a1a;
+  
+  /* Typographie */
+  --font-primary: 'Orbitron', monospace;
+  --font-secondary: 'Noto Sans KR', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-secondary);
+  background: var(--dark-bg);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Import des polices Google */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Sans+KR:wght@300;400;700&display=swap');
